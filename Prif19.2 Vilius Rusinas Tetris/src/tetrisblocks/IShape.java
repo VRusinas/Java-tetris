@@ -1,13 +1,11 @@
 package tetrisblocks;
 
-import tetris.TetrisBlock; // nes kitam package 
+import tetris.TetrisBlock; 
 
 public class IShape extends TetrisBlock 
 {
-    public IShape() // runtime polymorthism?
+    public IShape() 
     {
-        super( new int[][]{{1,1,1,1}}); //naudojam super kaip metoda ir passinam per ji array of int arrays 
-        //callina TetrisBlock klase 
-        //taip prieinam priavte kintamuosius 
+        super( new int[][]{{1,1,1,1}}); 
     }
 }
